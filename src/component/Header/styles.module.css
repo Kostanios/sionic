@@ -1,0 +1,61 @@
+.header {
+    width: calc(100% - 350px);
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    padding-left: 16px;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #727280;
+}
+
+.input-container{
+    background-color: #FFFFFF;
+    border: 1px solid #F0F4FB;
+    padding: 4px;
+    border-radius: 36px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.5;
+    max-height: 50px;
+}
+
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container{
+    background-color: #F0F4FB;
+    width: 94px;
+    height: 42px;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+
+    color: #2D2D2F;
+}
+
+.basket{
+
+}
