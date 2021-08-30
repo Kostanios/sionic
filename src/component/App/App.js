@@ -1,7 +1,8 @@
-import session from '../redux-orm/orm'
+import session from '../../redux-orm/orm'
 import './App.css';
-import useModalReducer from "../hooks/useReducer";
-import Header from "./Header/header";
+import useModalReducer from "../../hooks/useReducer";
+import Header from "../Header/header";
+import Advertis from "../Advertis/Advertis";
 
 function App() {
   const createProduct = useModalReducer(
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Advertis/>
       <button onClick={()=>{
         createProduct()
       }}>
