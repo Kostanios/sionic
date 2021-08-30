@@ -7,4 +7,6 @@ const orm = new ORM({
 
 orm.register(Product);
 
-export default orm;
+const session = orm.session()
+
+export default session;
